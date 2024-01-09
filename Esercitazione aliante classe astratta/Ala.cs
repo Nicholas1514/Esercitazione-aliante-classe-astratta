@@ -16,10 +16,9 @@ namespace Esercitazione_aliante_classe_astratta
             get { return _lung; }
             set
             {
-                if (value >= 15F)
+               
                     _lung = value;
-                else
-                    _lung = 15F;
+                
             }
         }
 
